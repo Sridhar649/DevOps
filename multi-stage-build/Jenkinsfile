@@ -1,5 +1,16 @@
 pipeline {
     agent none
+
+    triggers {
+        // For GitHub Webhooks
+        githubPush() 
+        // OR for GitLab Webhooks (requires GitLab plugin)
+        // gitlab(triggerOnPush: true, triggerOnMergeRequest: true, branchFilterType: 'All')
+        
+        // OR for traditional polling every 5 minutes if webhooks aren't possible
+        // pollSCM('H/5 * * * *') 
+    }
+
     stages {
 
         stage('Back-end-deployment')  {
