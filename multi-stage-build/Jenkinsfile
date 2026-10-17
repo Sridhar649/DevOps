@@ -1,0 +1,22 @@
+pipeline {
+    agent none
+    stages {
+        
+        stage('Back-end-deployment')  {
+            agent {docker {image: 'maven:3.9.1-adoptopenjdk-11'} }
+            steps {
+                sh 'mvn --version'
+            }
+        }
+
+        stage('Front-end-deployment') {
+            agent {docker { image 'node:24-alpine' }}
+            steps {
+                sh 'node --version'
+            }
+            steps {
+                sh 'whoami'
+            }
+        }
+    }
+}
