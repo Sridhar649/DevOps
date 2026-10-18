@@ -7,6 +7,7 @@
 
 ## Project initialization and hands-on
 - Created two projects `/jenkins` and `/multi-stage-build`
+- <img width="1187" alt="Jenkins-projects-dashboard" src="docs/images/jenkins-project.png">
 - `docs/images/jenkins-project.png`
 ### first project
 - Tried the sample jenkins project to test the jenkinsfile
