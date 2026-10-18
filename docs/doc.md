@@ -7,8 +7,8 @@
 
 ## Project initialization and hands-on
 - Created two projects `/jenkins` and `/multi-stage-build`
-- <img width="1187" alt="Jenkins-projects-dashboard" src="docs/images/jenkins-project.png">
-- `docs/images/jenkins-project.png`
+- <img width="1187" alt="Jenkins-projects-dashboard" src="images/jenkins-project.png">
+
 ### first project
 - Tried the sample jenkins project to test the jenkinsfile
 - The first project got success after getting few errors. Resolved it and the proofs are attached below.
@@ -24,5 +24,5 @@
     - Issue image version, docker couldn't able to pull the image properly and it has been fixed after updating correct image version.
     - Few typo issues in the jenkins groovy syntax
 - build history
-    - `docs/images/jenkins-project.png`
+    - - <img width="1187" alt="Jenkins-projects-dashboard" src="/images/multi-stage-project.png>
 - Still there is with github triggering the pipeline automatically, working on it.
