@@ -24,5 +24,5 @@
     - Issue image version, docker couldn't able to pull the image properly and it has been fixed after updating correct image version.
     - Few typo issues in the jenkins groovy syntax
 - build history
-    - - <img width="1187" alt="Jenkins-projects-dashboard" src="/images/multi-stage-project.png>
+    - - <img width="1187" alt="Jenkins-projects-dashboard" src="images/multi-stage-project.png">
 - Still there is with github triggering the pipeline automatically, working on it.
